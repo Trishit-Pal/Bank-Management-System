@@ -30,7 +30,7 @@ void BankAccount::create_account(){
 	cin.ignore();
 	cin.getline(addrs,200);
 	std::cout<<"\n Enter pincode: \t";
-	//cin.ignore();
+	
 	std::cin>>pincode;
 	std::cout<<"\n Enter Branch name : \t";
 	cin.ignore();
